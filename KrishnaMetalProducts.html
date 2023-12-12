@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Krishna Metal Products</title>
+    <meta property="og:title" content="Traveler template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Karla;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+
+      .about{
+            width: 100%;
+            height: 40vh;
+            background-color: white;
+            text-align: center;
+            padding: 7vh;
+      } 
+
+
+      .map{
+            background-color: white;
+            width: 100%;
+        }
+
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+
+      <div class="home-container">
+        <section class="home-hero">
+          <div class="home-main">
+            <div class="home-video">
+              <video
+                src=""
+                poster="img/4.png"
+                class="home-video1"
+              ></video>
+              <div class="home-tint"></div>
+            </div>
+            <div class="home-content">
+              <header data-thq="thq-navbar" class="home-navbar">
+                <img
+                  alt="logo"
+                  src="img/kmp_templets-removebg2.png" alt="" width="350" height="90">
+                  
+                <div data-thq="thq-burger-menu" class="home-menu">
+                  <div class="home-links">
+                    <a href="#features" class="home-link link">Home</a>
+                    <span class="link">About</span>
+                    <span class="link">Products</span>
+                    <a href="#find" class="home-link01 link">Contact</a>
+                  </div>
+                  <button class="home-hamburger button">
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path
+                        d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                  <div
+                    data-thq="thq-mobile-menu-nav"
+                    data-role="Nav"
+                    class="home-nav"
+                  >
+                    <div class="home-container1">
+                      <img
+                        alt="image"
+                        src="img/kmp_templets-removebg2.png"
+                        class="home-image"
+                      />
+                      <div data-thq="thq-close-menu" class="home-menu-close">
+                        <svg viewBox="0 0 1024 1024" class="home-icon02">
+                          <path
+                            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <nav
+                      data-thq="thq-mobile-menu-nav-links"
+                      data-role="Nav"
+                      class="home-nav1"
+                    >
+                      <span class="home-text02">About</span>
+                      <span class="home-text03">Products</span>
+                      <span class="home-text04">contacts</span>
+                      <span class="home-text05">dealers networks</span>
+                    </nav>
+                    
+                </div>
+              </header>
+              <div class="home-center">
+                <div class="home-heading">
+                  <h1 class="home-header"></h1>
+                  <p class="home-caption">
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        <!--About-->
+    
+        <div class="about">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                We offer quality products that meet the challenging industrial specifications and needs. These specifications are as per the clients requirements and at affordable prices. we are  provide premium quality products.Our range of products are available in different sizes and as per the requirement. We also provide customized products to our clients who demand give us exact specifications of their requirements.Our products are 100% made in Indian and on par with the latest technology available in the market.
+                "Mr. Vijay Patel" and "Mr. Vipul Patel" Under the strict direction of we have achieved an alleged name in the industry.
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-md-4 p-4 col-sm-6 col-12 wow zoomIn fs-4 fw-bold" data-wow-duration="1500ms" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.5s; animation-name: zoomIn;">
+                  <span class="counter-digit">15</span> <span class="plus">+</span>
+                  <p class="cou-name">Years</p>
+              </div>
+              <div class="col-md-4 p-4 col-sm-6 col-12 wow zoomIn fs-4 fw-bold" data-wow-duration="1500ms" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.5s; animation-name: zoomIn;">
+                  <span class="counter-digit">10</span> <span class="plus">+</span>
+                  <p class="cou-name">States/Citys</p>
+              </div>
+              <div class="col-md-4 p-4 col-sm-6 col-12 wow zoomIn fs-4 fw-bold" data-wow-duration="1500ms" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0.5s; animation-name: zoomIn;">
+                  <span class="counter-digit">100</span> <span class="plus">+</span>
+                  <p class="cou-name">Products</p>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        </section>
+        <section id="tours" class="home-quick-view">
+          <div class="home-main1">
+            <div class="home-sorting">
+              <button class="home-option-primary button">All</button>
+              <button class="button-option button">SS</button>
+              <button class="button-option button">MS</button>
+              <button class="button-option button">Trending</button>
+            </div>  
+          </div>
+
+          <div class="home-offers">
+            <a href="index.html">
+              <div class="home-offer-container">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="img/Drywall Screw.webp"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text"><span>S.S. Screw</span></span>
+                    </div>
+                    <span class="offer-text2">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="img/Drywall Screw.webp"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text"><span>M.S. Screw</span></span>
+                    </div>
+                    <span class="offer-text2">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="img/Drywall Screw.webp"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text"><span>Drywal Screw</span></span>
+                    </div>
+                    <span class="offer-text2">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="img/Drywall Screw.webp"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text"><span>Self Tapping Screw</span></span>
+                    </div>
+                    <span class="offer-text2">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="img/Drywall Screw.webp"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text"><span>Rivat Screw</span></span>
+                    </div>
+                    <span class="offer-text2">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="img/Drywall Screw.webp"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text"><span>Chipboard Screw</span></span>
+                    </div>
+                    <span class="offer-text2">
+                      <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="home-pagination">
+            <button class="home-previous button-option button">
+              <svg viewBox="0 0 1024 1024" class="home-icon11">
+                <path d="M658 708l-60 60-256-256 256-256 60 60-196 196z"></path>
+              </svg>
+              <span class="home-text07">Previous</span>
+            </button>
+            <div class="home-pages">
+              <div class="home-primary">
+                <div class="home-number-current page-current page">
+                  <span class="home-text08">1</span>
+                </div>
+                <div class="page"><span class="home-text09">2</span></div>
+              </div>
+              <img
+                alt="image"
+                src="public/playground_assets/more.svg"
+                class="home-more"
+              />
+              <div class="page"><span class="home-text11">5</span></div>
+            </div>
+            <button class="home-next button-option button">
+              <span class="home-text12">Next</span>
+              <svg viewBox="0 0 1024 1024" class="home-icon13">
+                <path
+                  d="M426 256l256 256-256 256-60-60 196-196-196-196z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="home-testimonials">
+          <div class="home-content02">
+            <div class="home-heading02">
+              <span class="home-title">Customer testimonial</span>
+              <p class="home-quote">
+                “We’ve used Traveler to lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.”
+              </p>
+            </div>
+            <div class="home-details">
+              <div class="home-author">
+                <img
+                  alt="image"
+                  src="public/playground_assets/quote-200h.png"
+                  class="home-avatar"
+                />
+                <span class="home-name">Michael McDonald</span>
+              </div>
+              <div class="home-controls">
+                <div class="page"><span class="home-text13">&lt;</span></div>
+                <div class="home-next1 page">
+                  <span class="home-text14">&lt;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="how-it-works" class="home-highlights">
+          <div class="home-highlight">
+            <div class="home-content03">
+              <div class="home-heading03">
+                <h2 class="home-header02">
+                  Top-quality manufacturing
+                </h2>
+                <p class="home-caption02">
+                  Our screw ate manufactured with the highest quality material and latest technology. So, you can trust us for screws that are durable, reliable and strong 
+                </p>
+              </div>
+            </div>
+            <div class="home-image2">
+              <img
+                alt="image"
+                src="img/photo-1555877765-613b7723cd17.jfif"
+                class="home-image3"
+              />
+            </div>
+          </div>
+          <div class="home-highlight1">
+            <div class="home-image4">
+              <img
+                alt="image"
+                src="img/photo-1597424216809-3ba9864aeb18.jfif"
+                class="home-image5"
+              />
+            </div>
+            <div class="home-content04">
+              <div class="home-heading04">
+                <h2 class="home-header03">
+                  Wide rang of screws
+                </h2>
+                <p class="home-caption03">
+                  <span>
+                    We offer a wide variety of screw, including wood,metal,drywall and more. Our screws are available in various sizes and quantities to suit your needs.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="home-highlight">
+            <div class="home-content03">
+              <div class="home-heading03">
+                <h2 class="home-header02">
+                  Affordable prices
+                </h2>
+                <p class="home-caption02">
+                  At krishna metal products, we believes in offering quality products at affordable prices. So, our screws are competitively priced, without compromising on the quality we offer discounts on bulk purchases making krishna metal products the go-to source for contractors alike 
+                </p>
+              </div>
+            </div>
+            <div class="home-image2">
+              <img
+                alt="image"
+                src="img/photo-1597423498026-b22efab3b009.jfif"
+                class="home-image3"
+              />
+            </div>
+          </div>
+        </section>
+
+        <!--map-->
+    
+        <div class="map">
+          <div class="container-xxl p-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container-xxl p-5 px-0">
+                <div class="bg-dark">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7392.511094976168!2d70.76940593218039!3d22.11623028541972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3958371cdcfb51a1%3A0x8dbf48017e628bf7!2sSILVER%20INDUSTRIAL%20ZONE-2%2C%20RIBDA!5e0!3m2!1sen!2sin!4v1674136139574!5m2!1sen!2sin" frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0"></iframe>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <section class="home-footer">
+          <div class="home-content12">
+            <div class="home-main2">
+              <div class="home-branding">
+                <div class="home-heading10">
+                  <img
+                    alt="image"
+                    src="img/kmp_templets-removebg2.png" width="150" height="40"
+                    class="home-image7"
+                  />
+                  <p class="home-caption10">
+                    Survey No 2901 Plot No 36 Silver Industrial Zone 2, BH Umiya Industrial Zone 2, 8b National highway, Ribda, Rajkot, Gujarat, 360311
+                    <br>
+                    9377726524
+                    <br>
+                    9825826524
+                  </p>
+                </div>
+              </div>
+                
+                <div class="home-links1">
+                  <div class="home-items2">
+                    <button class="home-link10 button button-clean">
+                      Home
+                    </button>
+                    <button class="home-link11 button button-clean">
+                      About Us
+                    </button>
+                    <button class="home-link12 button button-clean">
+                      Products
+                    </button>
+                    <button class="home-link13 button button-clean">
+                      Quality
+                    </button>
+                    <button class="home-link14 button button-clean">
+                      Contact Us
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="home-copyright">
+              © 2022 Character. All Rights Reserved.
+            </span>
+          </div>
+        </section>
+        <div>
+          <dangerous-html
+            html="<script>
+ /*
+  Accordion - Code Embed
+  */
+  const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
+  const accordionContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
+  const accordionIconsClosed = document.querySelectorAll('[data-role='accordion-icon-closed']'); // All accordion closed icons
+  const accordionIconsOpen = document.querySelectorAll('[data-role='accordion-icon-open']'); // All accordion open icons
+
+  accordionContents.forEach((accordionContent) => {
+      accordionContent.style.display = 'none'; //Hides all accordion contents
+  });
+
+  accordionIconsClosed.forEach((icon) => {
+    icon.style.display = 'flex'
+  })
+
+  accordionIconsOpen.forEach((icon) => {
+    icon.style.display = 'none'
+  })
+
+  accordionContainers.forEach((accordionContainer, index) => {
+      accordionContainer.addEventListener('click', () => {
+          if (accordionContents[index].style.display === 'flex') {
+              // If the accordion is already open, close it
+              accordionContents[index].style.display = 'none';
+              accordionIconsClosed[index].style.display = 'flex';
+              accordionIconsOpen[index].style.display = 'none'
+          } else {
+              // If the accordion is closed, open it
+              accordionContents.forEach((accordionContent) => {
+                  accordionContent.style.display = 'none'; //Hides all accordion contents
+              });
+
+              accordionIconsClosed.forEach((accordionIcon) => {
+                  accordionIcon.style.display = 'flex'; // Resets all icon transforms to 0deg (default)
+              });
+
+              accordionIconsOpen.forEach((accordionIcon) => {
+                accordionIcon.style.display = 'none';
+              })
+              
+              accordionContents[index].style.display = 'flex'; // Shows accordion content
+              accordionIconsClosed[index].style.display = 'none'; // Rotates accordion icon 180deg
+              accordionIconsOpen[index].style.display = 'flex';
+          }
+      });
+  });
+</script>
+"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
